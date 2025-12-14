@@ -264,6 +264,8 @@ nav {
 
 .info-value {
     color: #b0b0b0;
+    text-decoration: none;
+    cursor: pointer;
 }
 
 .about-buttons {

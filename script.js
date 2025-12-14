@@ -274,11 +274,11 @@ function initDownloadCV() {
             e.preventDefault();
             
             const cvContent = `
-JHON SMITH
+Adeleke Bada
 Freelance Web Designer & Developer
-Email: jhonsmith@gmail.com
+Email: Adelekebada@gmail.com
 Phone: 01646321470
-Location: 1212 Dhaka, Gengoria BD Bruhon
+Location: 1212 Ikeja Lagos, Nigeria.
 Date of Birth: 21-Oct-1990
 
 PROFESSIONAL SUMMARY
@@ -286,26 +286,26 @@ Creative and detail-oriented web designer and developer with 8+ years of experie
 responsive websites and applications. Specialized in modern web technologies and user experience design.
 
 EDUCATION
-Master of Computer Science (2018 - 2020)
+Master of Computer Science (2021 - 2022)
 - Completed advanced studies in computer science with focus on software engineering and web technologies
 - New York University
 
-Bachelor of Web Development (2014 - 2018)
+Bachelor of Web Development (2018 - 2020)
 - Graduated with honors, specializing in front-end development and user experience design
 
-Diploma in Graphic Design (2012 - 2014)
+Diploma in Graphic Design (2022 - 2023)
 - Studied visual design principles, typography, and digital illustration techniques
 
 WORK EXPERIENCE
-Senior Web Developer (2020 - Present)
+Senior Web Developer (2025 - Present)
 - Leading development teams in creating enterprise-level web applications
 - Managing client relationships and project delivery
 
-Freelance Designer (2018 - 2020)
+Freelance Designer (2019 - 2020)
 - Worked with various clients to deliver custom web solutions
 - Branding and digital marketing materials
 
-Junior Developer (2016 - 2018)
+Junior Developer (2023 - 2024)
 - Developed responsive websites
 - Collaborated with design teams to implement user interfaces
 
@@ -334,7 +334,7 @@ ACHIEVEMENTS
                 const url = window.URL.createObjectURL(blob);
                 const a = document.createElement('a');
                 a.href = url;
-                a.download = 'Jhon_Smith_CV.txt';
+                a.download = 'Adeleke_Bada_CV.txt';
                 document.body.appendChild(a);
                 a.click();
                 document.body.removeChild(a);
